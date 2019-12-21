@@ -6,4 +6,8 @@
     <UseWindowsForms>true</UseWindowsForms>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Mp3Cutter.Module\Mp3Cutter.Module.csproj" />
+  </ItemGroup>
+
 </Project>
