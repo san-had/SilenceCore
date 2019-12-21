@@ -10,9 +10,21 @@ namespace Mp3Cutter.Tests.Unit
         }
 
         [Test]
-        public void Test1()
+        public void GetFrameProSec_WithGeneralInput_ReturnGeneralOutput()
         {
-            Assert.Pass();
+            // Arrange
+            var mp3Cutter = new Mp3Cutter.Service.Mp3Cutter();
+
+            int totalFrameCount = 24;
+            int totalTimeLength = 12;
+
+            double expectedResult = 2.0;
+
+            // Act
+            double actualResult = mp3Cutter.GetFrameProSec(totalFrameCount, totalTimeLength);
+
+            // Assert
+            Assert.AreEqual(expectedResult, actualResult);
         }
     }
 }

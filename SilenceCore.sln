@@ -3,17 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29609.76
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mp3Cutter.Module", "Mp3Cutter.Module\Mp3Cutter.Module.csproj", "{5D1B8DFA-4DDF-4471-B754-FE4B366E165B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mp3Cutter.Module", "Mp3Cutter.Module\Mp3Cutter.Module.csproj", "{5D1B8DFA-4DDF-4471-B754-FE4B366E165B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mp3Cutter.Extensibility", "Mp3Cutter.Extensibility\Mp3Cutter.Extensibility.csproj", "{0FE65F59-D34D-46E5-86EA-22590C53250B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mp3Cutter.Extensibility", "Mp3Cutter.Extensibility\Mp3Cutter.Extensibility.csproj", "{0FE65F59-D34D-46E5-86EA-22590C53250B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mp3Cutter.Service", "Mp3Cutter.Service\Mp3Cutter.Service.csproj", "{C62BF4FB-4650-4D34-BAF0-9141BDFFED57}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mp3Cutter.Service", "Mp3Cutter.Service\Mp3Cutter.Service.csproj", "{C62BF4FB-4650-4D34-BAF0-9141BDFFED57}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mp3Cutter.WinFormsUI", "Mp3Cutter.WinFormsUI\Mp3Cutter.WinFormsUI.csproj", "{4ABABA50-2683-4A76-B2A5-76D45C935F3E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mp3Cutter.WinFormsUI", "Mp3Cutter.WinFormsUI\Mp3Cutter.WinFormsUI.csproj", "{4ABABA50-2683-4A76-B2A5-76D45C935F3E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mp3Cutter.Tests.Unit", "Mp3Cutter.Tests.Unit\Mp3Cutter.Tests.Unit.csproj", "{7C37F85B-6D39-4D15-B1CF-E41C4B2A70FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mp3Cutter.Tests.Unit", "Mp3Cutter.Tests.Unit\Mp3Cutter.Tests.Unit.csproj", "{7C37F85B-6D39-4D15-B1CF-E41C4B2A70FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mp3Cutter.Console", "Mp3Cutter.Console\Mp3Cutter.Console.csproj", "{7F4034F2-1D0A-4F9D-9C75-D747FE171F5F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mp3Cutter.Console", "Mp3Cutter.Console\Mp3Cutter.Console.csproj", "{7F4034F2-1D0A-4F9D-9C75-D747FE171F5F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

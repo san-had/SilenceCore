@@ -60,7 +60,7 @@ namespace Mp3Cutter.Service
             return intTotalTimeLength;
         }
 
-        private double GetFrameProSec(int totalFrameCount, int totalTimeLength)
+        public double GetFrameProSec(int totalFrameCount, int totalTimeLength)
         {
             return (double)totalFrameCount / (double)totalTimeLength;
         }
