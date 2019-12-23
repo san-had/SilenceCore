@@ -80,9 +80,17 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Mp3Cutter.Extensibility\Mp3Cutter.Extensibility.csproj">
+      <Project>{0FE65F59-D34D-46E5-86EA-22590C53250B}</Project>
+      <Name>Mp3Cutter.Extensibility</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Mp3Cutter.Module\Mp3Cutter.Module.csproj">
       <Project>{5d1b8dfa-4ddf-4471-b754-fe4b366e165b}</Project>
       <Name>Mp3Cutter.Module</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Mp3Cutter.Service\Mp3Cutter.Service.csproj">
+      <Project>{c62bf4fb-4650-4d34-baf0-9141bdffed57}</Project>
+      <Name>Mp3Cutter.Service</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

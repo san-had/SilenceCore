@@ -207,6 +207,7 @@
             this.btnExecution.TabIndex = 19;
             this.btnExecution.Text = "Vágás";
             this.btnExecution.UseVisualStyleBackColor = true;
+            this.btnExecution.Click += new System.EventHandler(this.btnExecution_Click);
             // 
             // openFileDialog1
             // 

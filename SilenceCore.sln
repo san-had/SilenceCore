@@ -15,6 +15,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mp3Cutter.Console", "Mp3Cut
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mp3Cutter.WinForms.UI", "Mp3Cutter.WinForms.UI\Mp3Cutter.WinForms.UI.csproj", "{EE752016-ACA7-439D-8BAF-2CBDD64A106B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mp3Cutter.Wpf.UI", "Mp3Cutter.Wpf.UI\Mp3Cutter.Wpf.UI.csproj", "{CFD52F0C-44C7-4793-AF7F-436478366ECE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{EE752016-ACA7-439D-8BAF-2CBDD64A106B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EE752016-ACA7-439D-8BAF-2CBDD64A106B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EE752016-ACA7-439D-8BAF-2CBDD64A106B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFD52F0C-44C7-4793-AF7F-436478366ECE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFD52F0C-44C7-4793-AF7F-436478366ECE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFD52F0C-44C7-4793-AF7F-436478366ECE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFD52F0C-44C7-4793-AF7F-436478366ECE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
