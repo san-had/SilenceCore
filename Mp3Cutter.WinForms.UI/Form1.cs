@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Mp3Cutter.WinForms.UI
@@ -15,6 +8,14 @@ namespace Mp3Cutter.WinForms.UI
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void btnFileSelection_Click(object sender, EventArgs e)
+        {
+            if (openFileDialog1.ShowDialog() == DialogResult.OK)
+            {
+                txtMp3FileName.Text = openFileDialog1.FileName;
+            }
         }
     }
 }
